@@ -9,6 +9,6 @@
 }
 
 .specials h2 {
-	color: black;
+	color: var(--primary-1);
 	font-size: 2rem;
 }

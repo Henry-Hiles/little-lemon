@@ -22,12 +22,7 @@ nav ul {
 }
 
 nav a {
-	color: rgb(128, 128, 128);
 	text-decoration: none;
-}
-
-nav a.selected {
-	color: rgb(0, 0, 0);
 }
 
 nav a:hover {
