@@ -14,6 +14,6 @@ export const Jumbo = () => (
 				Reserve a Table
 			</Link>
 		</section>
-		<img src="/images/Chef.jpg" alt="Image of Chef" />
+		<img src="/images/Chef.jpg" alt="Chef" />
 	</section>
 )

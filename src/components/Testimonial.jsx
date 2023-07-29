@@ -16,7 +16,7 @@ const Star = () => (
 export const Testimonial = ({ name, image, review }) => (
 	<article className="testimonial">
 		<section className="row testimonyRow">
-			<img src={image} alt={`Image of ${name}`} />{" "}
+			<img src={image} alt={name} />{" "}
 			<section className="right">
 				<span className="name">{name}</span>
 				<section className="stars">
