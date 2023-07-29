@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	--primary-1: #495e57;
+	--primary-2: #f4ce14;
+	--secondary-1: #edefee;
+}
+
+body {
+	margin: 0;
+}
+
+a {
+	color: inherit;
+}
+
+#root {
+	display: grid;
+	grid-template-rows: 5rem 1fr 15rem;
+	min-height: 100vh;
+}
+
+main {
+	display: flex;
+	margin: auto;
+	color: white;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+hr {
+	border: 1px solid white;
+	border-radius: 1rem;
+	width: 100%;
+}
+
+img {
+	max-width: 100%;
+}
+
+.button-link {
+	background-color: var(--primary-2);
+	color: black;
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	border-radius: 0.75rem;
+}
+
+.row {
+	display: flex;
+	padding: 0 1rem;
+	gap: 2rem;
+}

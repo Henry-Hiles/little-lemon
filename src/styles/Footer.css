@@ -1,0 +1,26 @@
+footer {
+	display: flex;
+	justify-content: center;
+	gap: 3rem;
+	padding: 2rem;
+	background-color: var(--primary-1);
+	color: white;
+}
+
+footer section {
+	display: flex;
+	flex-direction: column;
+}
+
+footer h3 {
+	font-size: 1rem;
+}
+
+footer img {
+	height: 10rem;
+}
+
+footer span {
+	padding: 0.5rem;
+	border-radius: 2rem;
+}

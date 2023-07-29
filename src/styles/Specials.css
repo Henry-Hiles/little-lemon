@@ -1,0 +1,14 @@
+.header-row {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.specials {
+	width: 60%;
+	margin: 1rem auto;
+}
+
+.specials h2 {
+	color: black;
+	font-size: 2rem;
+}

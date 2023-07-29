@@ -1,0 +1,26 @@
+.jumbo {
+	background-color: var(--primary-1);
+	height: 20rem;
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+	padding: 2rem;
+}
+
+.jumbo section {
+	max-width: 20rem;
+}
+
+.jumbo img {
+	border-radius: 2rem;
+}
+
+.jumbo h1 {
+	color: var(--primary-2);
+	font-size: 3rem;
+	margin: 0;
+}
+
+.jumbo h2 {
+	margin: 0;
+}

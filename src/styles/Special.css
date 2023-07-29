@@ -1,0 +1,43 @@
+.column {
+	width: 100%;
+	background-color: var(--secondary-1);
+	color: black;
+}
+
+.column,
+.column img {
+	border-radius: 1rem 1rem 0 0;
+}
+
+.column img {
+	width: 100%;
+	object-fit: cover;
+	height: 15rem;
+}
+
+.specialRow {
+	display: flex;
+	padding: 0;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.column :is(p, h3) {
+	margin: 0;
+}
+
+.column span {
+	color: #ee9972;
+	font-weight: bold;
+}
+
+.column article {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	padding: 1rem;
+}
+
+.column a {
+	margin-top: 3rem;
+}

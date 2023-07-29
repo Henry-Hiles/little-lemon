@@ -1,0 +1,15 @@
+.testimonials {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+	align-items: center;
+	background-color: var(--primary-1);
+}
+
+.testimonialRow {
+	width: 70%;
+}
+
+.testimonials h2 {
+	font-size: 2rem;
+}

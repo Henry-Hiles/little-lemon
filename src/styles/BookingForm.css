@@ -1,0 +1,21 @@
+.booking-form {
+	display: flex;
+	flex-direction: column;
+	gap: 0.2rem;
+}
+
+.booking-form :is(label, .submit) {
+	margin-top: 1rem;
+}
+
+.booking-form :is(input, select) {
+	background-color: white;
+	border: none;
+	padding: 0.5rem;
+	border-radius: 1rem;
+	font: inherit;
+}
+
+.booking-form .submit {
+	background-color: #fbdabb;
+}

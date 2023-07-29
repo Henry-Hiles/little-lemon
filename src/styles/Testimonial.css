@@ -1,0 +1,30 @@
+.testimonial {
+	background-color: white;
+	color: black;
+	border-radius: 2rem;
+	padding: 1rem;
+}
+
+.testimonial img {
+	border-radius: 10rem;
+	width: 5rem;
+}
+
+.stars {
+	color: gold;
+}
+
+.name {
+	font-size: 1.3rem;
+}
+
+.testimonyRow {
+	padding: 0;
+	align-items: center;
+}
+
+.right {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
