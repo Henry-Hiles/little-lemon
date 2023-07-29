@@ -5,8 +5,9 @@
 	background-color: #495e57;
 	padding: 1rem;
 	border-radius: 1rem;
-	height: 100%;
 	gap: 1rem;
+	width: 70%;
+	margin: auto;
 }
 
 .booking h1 {

@@ -1,16 +1,8 @@
 import { useState } from "react"
 import "../styles/BookingForm.css"
 
-export const BookingForm = () => {
+export const BookingForm = ({ availableTimes, dispatch }) => {
 	const [date, setDate] = useState(new Date().toISOString().slice(0, 10))
-	const [availableTimes] = useState([
-		"17:00",
-		"18:00",
-		"19:00",
-		"20:00",
-		"21:00",
-		"22:00"
-	])
 	const [time, setTime] = useState(availableTimes[0])
 	const [guests, setGuests] = useState(1)
 	const [occasion, setOccasion] = useState("None")
@@ -26,16 +18,21 @@ export const BookingForm = () => {
 			<label htmlFor="res-date">Choose date</label>
 			<input
 				value={date}
-				onChange={(event) => setDate(event.target.value)}
+				required
+				onChange={(event) => {
+					setDate(event.target.value)
+					dispatch(event.target.value)
+				}}
 				type="date"
 				id="res-date"
 			/>
 
-			<label htmlFor="res-time">Choose time</label>
+			<label htmlFor="time">Choose time</label>
 			<select
 				value={time}
+				required
 				onChange={(event) => setTime(event.target.value)}
-				id="res-time"
+				id="time"
 			>
 				{availableTimes.map((time) => (
 					<option key={time}>{time}</option>
@@ -45,6 +42,7 @@ export const BookingForm = () => {
 			<label htmlFor="guests">Number of guests</label>
 			<input
 				type="number"
+				required
 				min="1"
 				max="10"
 				id="guests"
@@ -66,7 +64,7 @@ export const BookingForm = () => {
 			<input
 				type="submit"
 				className="submit"
-				value="Make Your reservation"
+				value="Confirm reservation"
 			/>
 		</form>
 	)
