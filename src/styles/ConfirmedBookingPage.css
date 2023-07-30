@@ -1,0 +1,7 @@
+.confirmed {
+	background-color: var(--primary-1);
+	border-radius: 2rem;
+	margin: auto;
+	padding: 2rem 3rem;
+	text-align: center;
+}

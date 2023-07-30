@@ -3,7 +3,7 @@ import "../styles/Special.css"
 
 export const Special = ({ image, title, price, children }) => (
 	<section className="column">
-		<img src={image} alt="Picture of Food" />
+		<img src={image} alt="Food" />
 		<article>
 			<section className="row specialRow">
 				<h3>{title}</h3>
