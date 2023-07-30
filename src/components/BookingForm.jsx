@@ -25,22 +25,22 @@ export const BookingForm = ({
 
 	const onDateChange = ({ target }) => {
 		let error = ""
-		if (target.value === "") error = "Field is required"
+		if (target.value === "") error = "Field is required."
 		setDateError(error)
 		setDate(target.value)
-		if (!error) dispatch(target.valueAsDate)
+		if (!error && dispatch) dispatch(target.valueAsDate)
 	}
 
 	const onTimeChange = ({ target }) => {
 		let error = ""
-		if (target.value === "") error = "Field is required"
+		if (target.value === "") error = "Field is required."
 		setTimeError(error)
 		setTime(target.value)
 	}
 
 	const onGuestChange = ({ target }) => {
 		let error = ""
-		if (target.value === "") error = "Field is required"
+		if (target.value === "") error = "Field is required."
 		else if (target.value < 1 || target.value > 10)
 			error = "Guests must be between 1 and 10."
 		setGuestsError(error)
@@ -49,8 +49,7 @@ export const BookingForm = ({
 
 	const onOccasionChange = ({ target }) => {
 		let error = ""
-		if (target.value === "") error = "Field is required"
-		else if (
+		if (
 			target.value !== "Other" &&
 			target.value !== "Birthday" &&
 			target.value !== "Anniversary"
