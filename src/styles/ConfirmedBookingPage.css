@@ -1,7 +1,12 @@
 .confirmed {
 	background-color: var(--primary-1);
 	border-radius: 2rem;
-	margin: auto;
-	padding: 2rem 3rem;
+	margin: 2rem;
+	padding: 2rem 1rem;
 	text-align: center;
+}
+
+.confirmed h1 {
+	font-size: 2rem;
+	margin: 0;
 }

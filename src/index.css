@@ -11,6 +11,13 @@
 	--secondary-1: #edefee;
 }
 
+#root {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: space-between;
+}
+
 body {
 	margin: 0;
 }

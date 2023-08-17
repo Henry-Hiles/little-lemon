@@ -8,13 +8,15 @@ export const BookingPage = ({
 	reservationError
 }) => (
 	<section className="booking">
-		<h1>Book a Table</h1>
-		<hr />
-		<BookingForm
-			availableTimes={availableTimes}
-			dispatch={dispatch}
-			submitForm={submitForm}
-			reservationError={reservationError}
-		/>
+		<div className="booking-container">
+			<h1>Book a Table</h1>
+			<hr />
+			<BookingForm
+				availableTimes={availableTimes}
+				dispatch={dispatch}
+				submitForm={submitForm}
+				reservationError={reservationError}
+			/>
+		</div>
 	</section>
 )

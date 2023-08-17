@@ -2,7 +2,6 @@
 	display: flex;
 	flex-direction: column;
 	gap: 0.2rem;
-	min-width: 20rem;
 }
 
 .booking-form :is(label, .submit) {
@@ -18,6 +17,7 @@
 }
 
 .booking-form .submit {
+	margin-top: 1.8rem;
 	background-color: #fbdabb;
 }
 
