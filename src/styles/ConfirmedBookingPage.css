@@ -1,12 +1,16 @@
 .confirmed {
-	background-color: var(--primary-1);
-	border-radius: 2rem;
-	margin: 2rem;
-	padding: 2rem 1rem;
-	text-align: center;
+	margin: auto;
+	padding: 1rem;
 }
 
 .confirmed h1 {
 	font-size: 2rem;
 	margin: 0;
+}
+
+.confirmed article {
+	background-color: var(--primary-1);
+	border-radius: 2rem;
+	padding: 2rem 3rem;
+	text-align: center;
 }
