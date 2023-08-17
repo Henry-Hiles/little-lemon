@@ -8,7 +8,7 @@ export const Specials = () => (
 			<h2>This week&lsquo;s specials!</h2>
 			<Link className="button-link">Online Menu</Link>
 		</section>
-		<section className="row">
+		<section className="row specials-row">
 			<Special
 				title="Greek salad"
 				image="/images/Food1.jpg"

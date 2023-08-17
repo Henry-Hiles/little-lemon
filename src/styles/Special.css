@@ -1,7 +1,7 @@
 .column {
-	width: 100%;
 	background-color: var(--secondary-1);
 	color: black;
+	max-width: 20rem;
 }
 
 .column,

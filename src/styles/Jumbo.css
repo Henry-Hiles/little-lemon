@@ -24,3 +24,13 @@
 .jumbo h2 {
 	margin: 0;
 }
+
+@media (max-width: 550px) {
+	.jumbo {
+		align-items: center;
+	}
+
+	.jumbo img {
+		display: none;
+	}
+}

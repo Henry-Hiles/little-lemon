@@ -1,8 +1,9 @@
 .testimonial {
 	background-color: white;
+	max-width: 30rem;
 	color: black;
 	border-radius: 2rem;
-	padding: 1rem;
+	padding: 1rem 2rem;
 }
 
 .testimonial img {
@@ -15,12 +16,16 @@
 }
 
 .name {
+	text-align: center;
 	font-size: 1.3rem;
 }
 
 .testimonyRow {
 	padding: 0;
 	align-items: center;
+	gap: 0.2rem 1rem;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .right {

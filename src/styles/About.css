@@ -5,6 +5,17 @@
 	color: black;
 	position: relative;
 	min-height: 18rem;
+	padding: 0 2rem;
+	gap: 5rem;
+}
+
+.about p {
+	max-width: 40rem;
+}
+
+.about section {
+	width: 15rem;
+	flex-shrink: 0;
 }
 
 .about h2 {
@@ -12,10 +23,6 @@
 	margin: 0;
 	text-align: center;
 	color: var(--primary-1);
-}
-
-.about article {
-	width: 30%;
 }
 
 .about img {
@@ -31,4 +38,10 @@
 .about img {
 	top: 2rem;
 	right: 10rem;
+}
+
+@media (max-width: 760px) {
+	.about section {
+		display: none;
+	}
 }

@@ -2,7 +2,7 @@ footer {
 	display: flex;
 	justify-content: center;
 	gap: 3rem;
-	padding: 2rem;
+	padding: 0.8rem;
 	background-color: var(--primary-1);
 	color: white;
 }
@@ -10,17 +10,24 @@ footer {
 footer section {
 	display: flex;
 	flex-direction: column;
+	gap: 0.2rem;
 }
 
 footer h3 {
 	font-size: 1rem;
+	margin: 0;
+	margin-bottom: 0.2rem;
 }
 
 footer img {
 	height: 10rem;
 }
 
-footer span {
-	padding: 0.5rem;
-	border-radius: 2rem;
+@media (max-width: 500px) {
+	footer img {
+		display: none;
+	}
+	footer {
+		gap: 1.45rem;
+	}
 }

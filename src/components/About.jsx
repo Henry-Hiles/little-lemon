@@ -14,7 +14,7 @@ export const About = () => (
 			</p>
 		</article>
 		<section>
-			<img src="/images/Chef.jpg" alt="Mario" />{" "}
+			<img src="/images/Chef.jpg" alt="Mario" />
 			<img src="/images/Chef2.jpg" alt="Adrian" />
 		</section>
 	</section>

@@ -4,11 +4,15 @@
 }
 
 .specials {
-	width: 60%;
-	margin: 1rem auto;
+	margin: 1rem;
 }
 
 .specials h2 {
 	color: var(--primary-1);
 	font-size: 2rem;
+}
+
+.specials-row {
+	flex-wrap: wrap;
+	justify-content: center;
 }

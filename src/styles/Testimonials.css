@@ -7,7 +7,8 @@
 }
 
 .testimonialRow {
-	width: 70%;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .testimonials h2 {
